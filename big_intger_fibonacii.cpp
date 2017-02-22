@@ -77,7 +77,6 @@ string BigIntFibo (string a,string b)
     string result;
     for (int i=l-1; i>=0; i--)
     {
-        ///printf ("%c",sum[i]);
         result.push_back (sum[i]);
     }
     return result;
@@ -85,7 +84,6 @@ string BigIntFibo (string a,string b)
 
 int main()
 {
-    freopen ("c:\\cc\\fibo.txt","wt",stdout);
     string first="0",second="1",next;
     cout << "Fibo No. 0: 0" << endl << "Fibo No. 1: 1" << endl;
     for (int i=1; i<=30000; i++)
